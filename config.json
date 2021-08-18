@@ -1,0 +1,71 @@
+{
+    "domain": "algoauction.com",
+    "algod": {
+        "server": "https://testnet.algoexplorerapi.io",
+        "port": 0,
+        "token": "",
+        "network": "TestNet"
+    },
+    "indexer": {
+        "server": "https://testnet.algoexplorerapi.io/idx2",
+        "port": 0,
+        "token": ""
+    },
+    "ipfs": {
+        "display": "https://cloudflare-ipfs.com/ipfs/",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDMzMDVmM2RiQ2Q5ODcyRmQzQWZkN2M0ODc1QTVlZTRlOGUxMjI0QWMiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYyOTEyMTgyMTczOCwibmFtZSI6IlRlc3RuZXQgQWxnbyBBdWN0aW9uIn0.P68y-y5m9YTuPPTdySsPPJ46W4ZzGoQSFnP5GAR4fZ8"
+    },
+    "explorer": "algoscan.app",
+    "application": {
+        "admin_addr": "HDITSOQOH6EYJFBD2UK26RB7YNHTWZAZ4Z7USQZZZM2NRIH7PVMZ3W2WQU",
+        "app_id": 23002900,
+        "price_id": 23002978,
+        "owner_addr": "QKHD5632CSDCUAFZH7YRHGLB2WAE5JUM2XEKGOIQW5PJZSKSQYHECNXXOU",
+        "name": "AlgoAuction",
+        "unit": "aac",
+        "fee_amt": 10000,
+        "tags": [
+            {
+                "name": "Art",
+                "id": 23003521
+            },
+            {
+                "name": "3D",
+                "id": 23003591
+            },
+            {
+                "name": "Trading Cards",
+                "id": 23003628
+            },
+            {
+                "name": "Collectibles",
+                "id": 23003670
+            },
+            {
+                "name": "Sports",
+                "id": 23003713
+            },
+            {
+                "name": "Nature-Travel",
+                "id": 23003756
+            },
+            {
+                "name": "Others",
+                "id": 23003793
+            }
+        ],
+        "listing_hash": "b64(mAxUhe3Ru5Yc1AqDKzz6x20Hcsp91XK7c+5wdTN2G1s=)",
+        "seed_amt": 5000000,
+        "max_price": 10000000000
+    },
+    "contracts": {
+        "approval": "platform-approval.teal",
+        "clear": "platform-clear.teal",
+        "listing": "listing.teal",
+        "listing-positions": "listing.tmpl.teal.json"
+    },
+    "dev": {
+        "debug_txns": false,
+        "accounts": {}
+    }
+}
